@@ -1,0 +1,1270 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="386" onload="init(evt)" viewBox="0 0 1200 386" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:black; stroke-width:0.5; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details;
+	function init(evt) { details = document.getElementById("details").firstChild; }
+	function s(info) { details.nodeValue = "Function: " + info; }
+	function c() { details.nodeValue = ' '; }
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="386.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10" y="369" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
+<g class="func_g" onmouseover="s('genunix`pread (19 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`pread (19 samples, 0.05%)</title><rect x="55.4" y="305" width="0.6" height="15.0" fill="rgb(242,121,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_unload_callback (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hat_unload_callback (7 samples, 0.02%)</title><rect x="22.0" y="177" width="0.2" height="15.0" fill="rgb(206,48,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mutex_enter (4 samples, 0.01%)</title><rect x="23.2" y="241" width="0.1" height="15.0" fill="rgb(223,186,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`i_mod_hash_insert_nosync (13 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`i_mod_hash_insert_nosync (13 samples, 0.04%)</title><rect x="144.4" y="209" width="0.4" height="15.0" fill="rgb(231,90,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prread (11 samples, 0.03%)')" onmouseout="c()">
+<title>procfs`prread (11 samples, 0.03%)</title><rect x="56.2" y="273" width="0.4" height="15.0" fill="rgb(248,98,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_vector_enter (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`mutex_vector_enter (14 samples, 0.04%)</title><rect x="1177.6" y="129" width="0.5" height="15.0" fill="rgb(252,3,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dev`sdev_process_profile (5 samples, 0.01%)')" onmouseout="c()">
+<title>dev`sdev_process_profile (5 samples, 0.01%)</title><rect x="54.2" y="257" width="0.1" height="15.0" fill="rgb(244,210,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hati_pte_map (21 samples, 0.06%)')" onmouseout="c()">
+<title>unix`hati_pte_map (21 samples, 0.06%)</title><rect x="19.5" y="193" width="0.6" height="15.0" fill="rgb(225,54,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`tsc_gethrtimeunscaled_delta (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`tsc_gethrtimeunscaled_delta (6 samples, 0.02%)</title><rect x="378.3" y="273" width="0.2" height="15.0" fill="rgb(215,18,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`syslwp_park (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`syslwp_park (5 samples, 0.01%)</title><rect x="378.6" y="305" width="0.2" height="15.0" fill="rgb(210,226,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`ppmapout (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`ppmapout (6 samples, 0.02%)</title><rect x="56.2" y="177" width="0.2" height="15.0" fill="rgb(222,203,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookupnameat (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`lookupnameat (16 samples, 0.04%)</title><rect x="268.5" y="241" width="0.5" height="15.0" fill="rgb(232,12,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mmapobj (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mmapobj (4 samples, 0.01%)</title><rect x="54.0" y="289" width="0.2" height="15.0" fill="rgb(221,100,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_fault (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`segvn_fault (4 samples, 0.01%)</title><rect x="56.4" y="193" width="0.2" height="15.0" fill="rgb(251,199,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookuppnvp (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`lookuppnvp (7 samples, 0.02%)</title><rect x="55.2" y="209" width="0.2" height="15.0" fill="rgb(244,149,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`as_fault (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`as_fault (5 samples, 0.01%)</title><rect x="21.6" y="209" width="0.1" height="15.0" fill="rgb(253,210,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_optprint (14 samples, 0.04%)')" onmouseout="c()">
+<title>mntfs`mntfs_optprint (14 samples, 0.04%)</title><rect x="50.6" y="225" width="0.5" height="15.0" fill="rgb(237,82,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (290 samples, 0.80%)')" onmouseout="c()">
+<title>unix`mutex_enter (290 samples, 0.80%)</title><rect x="1178.4" y="257" width="9.4" height="15.0" fill="rgb(211,60,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`snprintf (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`snprintf (5 samples, 0.01%)</title><rect x="50.9" y="209" width="0.2" height="15.0" fill="rgb(246,75,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_get_ptr (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`anon_get_ptr (5 samples, 0.01%)</title><rect x="100.6" y="225" width="0.1" height="15.0" fill="rgb(237,17,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_walk (108 samples, 0.30%)')" onmouseout="c()">
+<title>genunix`avl_walk (108 samples, 0.30%)</title><rect x="58.6" y="241" width="3.5" height="15.0" fill="rgb(249,229,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zone_zsd_callbacks (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`zone_zsd_callbacks (12 samples, 0.03%)</title><rect x="1188.8" y="273" width="0.4" height="15.0" fill="rgb(218,142,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_getprot (4 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`pr_getprot (4 samples, 0.01%)</title><rect x="55.6" y="209" width="0.1" height="15.0" fill="rgb(224,192,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`kmem_cache_alloc (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`kmem_cache_alloc (8 samples, 0.02%)</title><rect x="126.5" y="193" width="0.3" height="15.0" fill="rgb(249,197,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`vsnprintf (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`vsnprintf (4 samples, 0.01%)</title><rect x="52.3" y="177" width="0.1" height="15.0" fill="rgb(213,40,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ip`ipsec_stack_fini (11 samples, 0.03%)')" onmouseout="c()">
+<title>ip`ipsec_stack_fini (11 samples, 0.03%)</title><rect x="1188.8" y="145" width="0.4" height="15.0" fill="rgb(241,141,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`putnext (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`putnext (5 samples, 0.01%)</title><rect x="53.6" y="225" width="0.1" height="15.0" fill="rgb(228,201,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`kmem_alloc (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`kmem_alloc (12 samples, 0.03%)</title><rect x="126.5" y="209" width="0.4" height="15.0" fill="rgb(234,222,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hati_load_common (12 samples, 0.03%)')" onmouseout="c()">
+<title>unix`hati_load_common (12 samples, 0.03%)</title><rect x="18.9" y="193" width="0.4" height="15.0" fill="rgb(235,176,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`dbuf_clear (5 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`dbuf_clear (5 samples, 0.01%)</title><rect x="1177.4" y="177" width="0.2" height="15.0" fill="rgb(212,0,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_read_as (5 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`pr_read_as (5 samples, 0.01%)</title><rect x="55.4" y="257" width="0.2" height="15.0" fill="rgb(220,83,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_exists (527 samples, 1.46%)')" onmouseout="c()">
+<title>unix`page_exists (527 samples, 1.46%)</title><rect x="159.6" y="209" width="17.2" height="15.0" fill="rgb(214,161,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_anon_cmp (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`vmu_anon_cmp (11 samples, 0.03%)</title><rect x="126.9" y="209" width="0.3" height="15.0" fill="rgb(206,98,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_find (416 samples, 1.15%)')" onmouseout="c()">
+<title>genunix`avl_find (416 samples, 1.15%)</title><rect x="112.9" y="209" width="13.5" height="15.0" fill="rgb(252,51,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_read_map_common (5 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`pr_read_map_common (5 samples, 0.01%)</title><rect x="55.6" y="241" width="0.1" height="15.0" fill="rgb(234,190,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_read (15 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`fop_read (15 samples, 0.04%)</title><rect x="56.2" y="289" width="0.5" height="15.0" fill="rgb(240,137,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_calculate_proc (6,096 samples, 16.86%)')" onmouseout="c()">
+<title>genunix`vmu_calculate_proc (6,096 samples, 16.86%)</title><rect x="58.3" y="257" width="198.9" height="15.0" fill="rgb(212,171,15)" rx="2" ry="2" />
+<text text-anchor="" x="61.2951245817317" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`vmu_calculate_proc</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_rotation (9 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`avl_rotation (9 samples, 0.02%)</title><rect x="112.3" y="177" width="0.3" height="15.0" fill="rgb(225,18,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookuppnvp (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`lookuppnvp (16 samples, 0.04%)</title><rect x="268.5" y="193" width="0.5" height="15.0" fill="rgb(217,128,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_getpage (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`fop_getpage (11 samples, 0.03%)</title><rect x="17.6" y="241" width="0.3" height="15.0" fill="rgb(205,70,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_faultpage (47 samples, 0.13%)')" onmouseout="c()">
+<title>genunix`segvn_faultpage (47 samples, 0.13%)</title><rect x="17.9" y="241" width="1.6" height="15.0" fill="rgb(248,193,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_pte_unmap (13 samples, 0.04%)')" onmouseout="c()">
+<title>unix`hat_pte_unmap (13 samples, 0.04%)</title><rect x="57.4" y="193" width="0.5" height="15.0" fill="rgb(231,209,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`teardown_vopstats (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`teardown_vopstats (7 samples, 0.02%)</title><rect x="1178.1" y="257" width="0.2" height="15.0" fill="rgb(253,80,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fsop_unmount (2,754 samples, 7.62%)')" onmouseout="c()">
+<title>genunix`fsop_unmount (2,754 samples, 7.62%)</title><rect x="1088.2" y="257" width="89.9" height="15.0" fill="rgb(216,222,27)" rx="2" ry="2" />
+<text text-anchor="" x="1091.22128812809" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`fs..</text>
+</g>
+<g class="func_g" onmouseover="s('zfs`zfsvfs_teardown (22 samples, 0.06%)')" onmouseout="c()">
+<title>zfs`zfsvfs_teardown (22 samples, 0.06%)</title><rect x="1177.4" y="225" width="0.7" height="15.0" fill="rgb(236,29,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`kstat_hold (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`kstat_hold (14 samples, 0.04%)</title><rect x="1177.6" y="145" width="0.5" height="15.0" fill="rgb(221,222,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_amp_update_incore_bounds (266 samples, 0.74%)')" onmouseout="c()">
+<title>genunix`vmu_amp_update_incore_bounds (266 samples, 0.74%)</title><rect x="101.2" y="225" width="8.7" height="15.0" fill="rgb(218,137,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`bounds_cmp (92 samples, 0.25%)')" onmouseout="c()">
+<title>genunix`bounds_cmp (92 samples, 0.25%)</title><rect x="149.1" y="193" width="3.0" height="15.0" fill="rgb(251,187,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`trap (93 samples, 0.26%)')" onmouseout="c()">
+<title>unix`trap (93 samples, 0.26%)</title><rect x="17.2" y="305" width="3.0" height="15.0" fill="rgb(220,95,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`as_free (37 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`as_free (37 samples, 0.10%)</title><rect x="56.7" y="241" width="1.2" height="15.0" fill="rgb(212,158,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`_interrupt (8 samples, 0.02%)')" onmouseout="c()">
+<title>unix`_interrupt (8 samples, 0.02%)</title><rect x="1087.8" y="241" width="0.2" height="15.0" fill="rgb(252,104,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prchoose (5 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`prchoose (5 samples, 0.01%)</title><rect x="55.8" y="225" width="0.1" height="15.0" fill="rgb(252,3,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`vsnprintf (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`vsnprintf (14 samples, 0.04%)</title><rect x="51.1" y="209" width="0.4" height="15.0" fill="rgb(210,96,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`default_lock_delay (42 samples, 0.12%)')" onmouseout="c()">
+<title>unix`default_lock_delay (42 samples, 0.12%)</title><rect x="262.5" y="241" width="1.4" height="15.0" fill="rgb(215,16,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`dnlc_purge_vfsp (1,871 samples, 5.17%)')" onmouseout="c()">
+<title>genunix`dnlc_purge_vfsp (1,871 samples, 5.17%)</title><rect x="1115.2" y="225" width="61.1" height="15.0" fill="rgb(241,125,18)" rx="2" ry="2" />
+<text text-anchor="" x="1118.20782058018" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genuni..</text>
+</g>
+<g class="func_g" onmouseover="s('unix`dispatch_hilevel (8 samples, 0.02%)')" onmouseout="c()">
+<title>unix`dispatch_hilevel (8 samples, 0.02%)</title><rect x="1087.8" y="209" width="0.2" height="15.0" fill="rgb(226,129,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dev`devzvol_lookup (4 samples, 0.01%)')" onmouseout="c()">
+<title>dev`devzvol_lookup (4 samples, 0.01%)</title><rect x="54.2" y="193" width="0.1" height="15.0" fill="rgb(244,42,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`memcmp (14 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`memcmp (14 samples, 0.04%)</title><rect x="49.7" y="209" width="0.5" height="15.0" fill="rgb(221,137,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vn_rele_dnlc (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`vn_rele_dnlc (12 samples, 0.03%)</title><rect x="1087.4" y="241" width="0.4" height="15.0" fill="rgb(213,8,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prgetpsinfo (7 samples, 0.02%)')" onmouseout="c()">
+<title>procfs`prgetpsinfo (7 samples, 0.02%)</title><rect x="55.7" y="241" width="0.3" height="15.0" fill="rgb(230,219,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`sys_syscall (35,823 samples, 99.07%)')" onmouseout="c()">
+<title>unix`sys_syscall (35,823 samples, 99.07%)</title><rect x="21.0" y="321" width="1168.9" height="15.0" fill="rgb(217,101,3)" rx="2" ry="2" />
+<text text-anchor="" x="23.9642985536904" y="331.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >unix`sys_syscall</text>
+</g>
+<g class="func_g" onmouseover="s('unix`hment_assign (17 samples, 0.05%)')" onmouseout="c()">
+<title>unix`hment_assign (17 samples, 0.05%)</title><rect x="19.5" y="177" width="0.6" height="15.0" fill="rgb(233,129,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('lxprocfs`lxpr_unmount (827 samples, 2.29%)')" onmouseout="c()">
+<title>lxprocfs`lxpr_unmount (827 samples, 2.29%)</title><rect x="1088.2" y="241" width="27.0" height="15.0" fill="rgb(240,167,8)" rx="2" ry="2" />
+<text text-anchor="" x="1091.22128812809" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >l..</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_destroy_nodes (27 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`avl_destroy_nodes (27 samples, 0.07%)</title><rect x="257.4" y="209" width="0.9" height="15.0" fill="rgb(250,197,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_delay_default (124 samples, 0.34%)')" onmouseout="c()">
+<title>unix`mutex_delay_default (124 samples, 0.34%)</title><rect x="263.9" y="241" width="4.0" height="15.0" fill="rgb(206,164,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('pseudo`pseudonex_ioctl (4 samples, 0.01%)')" onmouseout="c()">
+<title>pseudo`pseudonex_ioctl (4 samples, 0.01%)</title><rect x="53.4" y="241" width="0.1" height="15.0" fill="rgb(250,135,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`pagefault (89 samples, 0.25%)')" onmouseout="c()">
+<title>unix`pagefault (89 samples, 0.25%)</title><rect x="17.3" y="289" width="2.9" height="15.0" fill="rgb(229,98,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`pvn_getpages (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`pvn_getpages (5 samples, 0.01%)</title><rect x="18.3" y="177" width="0.2" height="15.0" fill="rgb(244,189,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`strlen (15 samples, 0.04%)')" onmouseout="c()">
+<title>unix`strlen (15 samples, 0.04%)</title><rect x="52.5" y="225" width="0.5" height="15.0" fill="rgb(245,3,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`execmap (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`execmap (5 samples, 0.01%)</title><rect x="21.6" y="225" width="0.1" height="15.0" fill="rgb(220,103,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_readdir (779 samples, 2.15%)')" onmouseout="c()">
+<title>genunix`fop_readdir (779 samples, 2.15%)</title><rect x="23.3" y="289" width="25.5" height="15.0" fill="rgb(253,22,19)" rx="2" ry="2" />
+<text text-anchor="" x="26.3464229418434" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >g..</text>
+</g>
+<g class="func_g" onmouseover="s('unix`page_list_add (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`page_list_add (4 samples, 0.01%)</title><rect x="57.1" y="65" width="0.1" height="15.0" fill="rgb(221,27,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_lookup (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`fop_lookup (4 samples, 0.01%)</title><rect x="54.2" y="209" width="0.1" height="15.0" fill="rgb(221,189,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`open (27 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`open (27 samples, 0.07%)</title><rect x="54.3" y="305" width="0.9" height="15.0" fill="rgb(246,7,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_destroy_nodes (56 samples, 0.15%)')" onmouseout="c()">
+<title>genunix`avl_destroy_nodes (56 samples, 0.15%)</title><rect x="260.0" y="161" width="1.8" height="15.0" fill="rgb(245,17,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`swap_dispose (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`swap_dispose (7 samples, 0.02%)</title><rect x="57.1" y="129" width="0.2" height="15.0" fill="rgb(230,198,4)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_memload_region (21 samples, 0.06%)')" onmouseout="c()">
+<title>unix`hat_memload_region (21 samples, 0.06%)</title><rect x="19.5" y="241" width="0.6" height="15.0" fill="rgb(247,50,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`strdoioctl (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`strdoioctl (5 samples, 0.01%)</title><rect x="53.6" y="241" width="0.1" height="15.0" fill="rgb(231,137,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`uread (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`uread (11 samples, 0.03%)</title><rect x="56.2" y="225" width="0.4" height="15.0" fill="rgb(250,58,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`netstack_rele (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`netstack_rele (12 samples, 0.03%)</title><rect x="1188.8" y="209" width="0.4" height="15.0" fill="rgb(247,155,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_walk (92 samples, 0.25%)')" onmouseout="c()">
+<title>genunix`avl_walk (92 samples, 0.25%)</title><rect x="152.4" y="209" width="3.0" height="15.0" fill="rgb(224,55,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`netstack_stack_inactive (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`netstack_stack_inactive (12 samples, 0.03%)</title><rect x="1188.8" y="193" width="0.4" height="15.0" fill="rgb(211,161,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_create_va (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`page_create_va (4 samples, 0.01%)</title><rect x="18.7" y="145" width="0.1" height="15.0" fill="rgb(235,12,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`rw_exit (12 samples, 0.03%)')" onmouseout="c()">
+<title>unix`rw_exit (12 samples, 0.03%)</title><rect x="256.8" y="241" width="0.4" height="15.0" fill="rgb(253,54,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dev`prof_make_dir (5 samples, 0.01%)')" onmouseout="c()">
+<title>dev`prof_make_dir (5 samples, 0.01%)</title><rect x="54.2" y="225" width="0.1" height="15.0" fill="rgb(209,191,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`snprintf (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`snprintf (14 samples, 0.04%)</title><rect x="51.1" y="225" width="0.4" height="15.0" fill="rgb(205,210,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_lookup_nowait (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`page_lookup_nowait (7 samples, 0.02%)</title><rect x="17.7" y="209" width="0.2" height="15.0" fill="rgb(250,151,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`ioctl (154 samples, 0.43%)')" onmouseout="c()">
+<title>genunix`ioctl (154 samples, 0.43%)</title><rect x="48.8" y="305" width="5.0" height="15.0" fill="rgb(216,154,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_free_object (28 samples, 0.08%)')" onmouseout="c()">
+<title>genunix`vmu_free_object (28 samples, 0.08%)</title><rect x="257.4" y="225" width="1.0" height="15.0" fill="rgb(253,64,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_alloc_bound (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`vmu_alloc_bound (7 samples, 0.02%)</title><rect x="101.0" y="225" width="0.2" height="15.0" fill="rgb(224,217,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`doprio (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`doprio (4 samples, 0.01%)</title><rect x="56.0" y="273" width="0.2" height="15.0" fill="rgb(220,10,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_find (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_find (4 samples, 0.01%)</title><rect x="22.0" y="129" width="0.1" height="15.0" fill="rgb(238,91,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fstatat (19 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`fstatat (19 samples, 0.05%)</title><rect x="268.4" y="289" width="0.6" height="15.0" fill="rgb(238,220,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_adaptive_tryenter (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mutex_adaptive_tryenter (5 samples, 0.01%)</title><rect x="372.9" y="241" width="0.1" height="15.0" fill="rgb(243,37,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_unmap (35 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`segvn_unmap (35 samples, 0.10%)</title><rect x="56.7" y="225" width="1.2" height="15.0" fill="rgb(229,128,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_alloc_bound (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`vmu_alloc_bound (12 samples, 0.03%)</title><rect x="159.3" y="209" width="0.3" height="15.0" fill="rgb(237,10,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`ndi_devctl_ioctl (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`ndi_devctl_ioctl (4 samples, 0.01%)</title><rect x="53.4" y="225" width="0.1" height="15.0" fill="rgb(214,107,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`default_lock_delay (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`default_lock_delay (6 samples, 0.02%)</title><rect x="1177.6" y="113" width="0.2" height="15.0" fill="rgb(245,75,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`sys_rtt_common (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`sys_rtt_common (4 samples, 0.01%)</title><rect x="1088.0" y="225" width="0.2" height="15.0" fill="rgb(219,151,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`forksys (30 samples, 0.08%)')" onmouseout="c()">
+<title>genunix`forksys (30 samples, 0.08%)</title><rect x="22.4" y="305" width="0.9" height="15.0" fill="rgb(246,180,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`openat (27 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`openat (27 samples, 0.07%)</title><rect x="54.3" y="289" width="0.9" height="15.0" fill="rgb(206,0,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`apply_all_modules_reverse (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`apply_all_modules_reverse (11 samples, 0.03%)</title><rect x="1189.5" y="209" width="0.3" height="15.0" fill="rgb(247,180,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ip`ipsec_loader_destroy (11 samples, 0.03%)')" onmouseout="c()">
+<title>ip`ipsec_loader_destroy (11 samples, 0.03%)</title><rect x="1188.8" y="129" width="0.4" height="15.0" fill="rgb(223,219,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_exit (16 samples, 0.04%)')" onmouseout="c()">
+<title>unix`mutex_exit (16 samples, 0.04%)</title><rect x="377.6" y="257" width="0.5" height="15.0" fill="rgb(207,88,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_get_next_elem (10 samples, 0.03%)')" onmouseout="c()">
+<title>mntfs`mntfs_get_next_elem (10 samples, 0.03%)</title><rect x="49.1" y="257" width="0.3" height="15.0" fill="rgb(212,173,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prlookup (9 samples, 0.02%)')" onmouseout="c()">
+<title>procfs`prlookup (9 samples, 0.02%)</title><rect x="54.5" y="161" width="0.3" height="15.0" fill="rgb(239,0,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_calculate (6,446 samples, 17.83%)')" onmouseout="c()">
+<title>genunix`vmu_calculate (6,446 samples, 17.83%)</title><rect x="58.0" y="273" width="210.3" height="15.0" fill="rgb(251,145,19)" rx="2" ry="2" />
+<text text-anchor="" x="60.9688061723957" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`vmu_calculate</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`cdev_ioctl (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`cdev_ioctl (11 samples, 0.03%)</title><rect x="53.2" y="257" width="0.4" height="15.0" fill="rgb(245,10,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_add (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_add (4 samples, 0.01%)</title><rect x="19.0" y="129" width="0.1" height="15.0" fill="rgb(226,35,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookuppnvp (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`lookuppnvp (25 samples, 0.07%)</title><rect x="54.3" y="193" width="0.9" height="15.0" fill="rgb(220,149,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`kstat_delete (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`kstat_delete (14 samples, 0.04%)</title><rect x="1177.6" y="177" width="0.5" height="15.0" fill="rgb(219,184,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_insert (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`avl_insert (16 samples, 0.04%)</title><rect x="112.1" y="193" width="0.5" height="15.0" fill="rgb(243,143,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`tsc_read (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`tsc_read (4 samples, 0.01%)</title><rect x="375.3" y="225" width="0.1" height="15.0" fill="rgb(226,56,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_lookup_procdir (8 samples, 0.02%)')" onmouseout="c()">
+<title>procfs`pr_lookup_procdir (8 samples, 0.02%)</title><rect x="54.5" y="145" width="0.2" height="15.0" fill="rgb(236,206,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`dnlc_purge_vp (3,262 samples, 9.02%)')" onmouseout="c()">
+<title>genunix`dnlc_purge_vp (3,262 samples, 9.02%)</title><rect x="269.0" y="257" width="106.4" height="15.0" fill="rgb(230,168,20)" rx="2" ry="2" />
+<text text-anchor="" x="271.998921490003" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`dnlc_..</text>
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_read_psinfo (9 samples, 0.02%)')" onmouseout="c()">
+<title>procfs`pr_read_psinfo (9 samples, 0.02%)</title><rect x="55.7" y="257" width="0.3" height="15.0" fill="rgb(227,48,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`seg_free (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`seg_free (7 samples, 0.02%)</title><rect x="21.7" y="177" width="0.3" height="15.0" fill="rgb(217,219,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dev`devname_profile_update (5 samples, 0.01%)')" onmouseout="c()">
+<title>dev`devname_profile_update (5 samples, 0.01%)</title><rect x="54.2" y="273" width="0.1" height="15.0" fill="rgb(215,170,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zone_shutdown (14 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`zone_shutdown (14 samples, 0.04%)</title><rect x="1189.4" y="289" width="0.4" height="15.0" fill="rgb(212,108,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ip`tcp_ioctl_abort (5 samples, 0.01%)')" onmouseout="c()">
+<title>ip`tcp_ioctl_abort (5 samples, 0.01%)</title><rect x="53.6" y="177" width="0.1" height="15.0" fill="rgb(242,34,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`mod_hash_ptrkey_cmp (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`mod_hash_ptrkey_cmp (4 samples, 0.01%)</title><rect x="144.8" y="209" width="0.2" height="15.0" fill="rgb(211,126,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`close (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`close (11 samples, 0.03%)</title><rect x="21.2" y="305" width="0.4" height="15.0" fill="rgb(223,213,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vn_openat (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`vn_openat (7 samples, 0.02%)</title><rect x="55.2" y="273" width="0.2" height="15.0" fill="rgb(231,187,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`domount (3,345 samples, 9.25%)')" onmouseout="c()">
+<title>genunix`domount (3,345 samples, 9.25%)</title><rect x="269.0" y="273" width="109.2" height="15.0" fill="rgb(216,69,41)" rx="2" ry="2" />
+<text text-anchor="" x="271.998921490003" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`domount</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`kmem_cache_alloc (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`kmem_cache_alloc (4 samples, 0.01%)</title><rect x="144.5" y="193" width="0.1" height="15.0" fill="rgb(240,221,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_anon_cmp (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`vmu_anon_cmp (6 samples, 0.02%)</title><rect x="112.7" y="193" width="0.2" height="15.0" fill="rgb(212,105,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('devinfo`di_copynode (4 samples, 0.01%)')" onmouseout="c()">
+<title>devinfo`di_copynode (4 samples, 0.01%)</title><rect x="53.2" y="177" width="0.2" height="15.0" fill="rgb(219,44,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_unload_callback (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hat_unload_callback (6 samples, 0.02%)</title><rect x="56.2" y="145" width="0.2" height="15.0" fill="rgb(244,156,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`cstatat (19 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`cstatat (19 samples, 0.05%)</title><rect x="268.4" y="273" width="0.6" height="15.0" fill="rgb(209,111,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_pagev_fill (4 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`pr_pagev_fill (4 samples, 0.01%)</title><rect x="55.6" y="193" width="0.1" height="15.0" fill="rgb(209,99,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`dmu_read_uio_dnode (4 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`dmu_read_uio_dnode (4 samples, 0.01%)</title><rect x="56.6" y="241" width="0.1" height="15.0" fill="rgb(252,148,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`i_mod_hash_clear_nosync (156 samples, 0.43%)')" onmouseout="c()">
+<title>genunix`i_mod_hash_clear_nosync (156 samples, 0.43%)</title><rect x="257.2" y="241" width="5.1" height="15.0" fill="rgb(230,159,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`relvm (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`relvm (16 samples, 0.04%)</title><rect x="21.7" y="225" width="0.5" height="15.0" fill="rgb(210,141,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`mutex_enter (6 samples, 0.02%)</title><rect x="144.6" y="193" width="0.2" height="15.0" fill="rgb(223,129,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fsop_mount (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`fsop_mount (11 samples, 0.03%)</title><rect x="375.4" y="257" width="0.4" height="15.0" fill="rgb(216,20,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`sa_handle_destroy (4 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`sa_handle_destroy (4 samples, 0.01%)</title><rect x="1087.5" y="161" width="0.1" height="15.0" fill="rgb(244,124,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`thread_join (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`thread_join (11 samples, 0.03%)</title><rect x="1188.8" y="113" width="0.4" height="15.0" fill="rgb(232,166,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('dev`process_rule (5 samples, 0.01%)')" onmouseout="c()">
+<title>dev`process_rule (5 samples, 0.01%)</title><rect x="54.2" y="241" width="0.1" height="15.0" fill="rgb(226,92,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`swap_getapage (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`swap_getapage (5 samples, 0.01%)</title><rect x="18.3" y="161" width="0.2" height="15.0" fill="rgb(251,141,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`urw (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`urw (5 samples, 0.01%)</title><rect x="55.4" y="209" width="0.2" height="15.0" fill="rgb(216,122,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_exists (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`page_exists (6 samples, 0.02%)</title><rect x="254.4" y="241" width="0.2" height="15.0" fill="rgb(225,210,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_free (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`page_free (4 samples, 0.01%)</title><rect x="57.1" y="81" width="0.1" height="15.0" fill="rgb(205,133,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_alloc_bound (31 samples, 0.09%)')" onmouseout="c()">
+<title>genunix`vmu_alloc_bound (31 samples, 0.09%)</title><rect x="156.8" y="209" width="1.0" height="15.0" fill="rgb(233,221,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_merge_bounds (10 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`vmu_merge_bounds (10 samples, 0.03%)</title><rect x="156.1" y="225" width="0.3" height="15.0" fill="rgb(217,120,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_find_insert_anon (531 samples, 1.47%)')" onmouseout="c()">
+<title>genunix`vmu_find_insert_anon (531 samples, 1.47%)</title><rect x="109.9" y="225" width="17.3" height="15.0" fill="rgb(252,166,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vm_getusage (6,447 samples, 17.83%)')" onmouseout="c()">
+<title>genunix`vm_getusage (6,447 samples, 17.83%)</title><rect x="57.9" y="289" width="210.4" height="15.0" fill="rgb(251,44,30)" rx="2" ry="2" />
+<text text-anchor="" x="60.9361743314621" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`vm_getusage</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_first (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`avl_first (8 samples, 0.02%)</title><rect x="258.1" y="193" width="0.2" height="15.0" fill="rgb(226,175,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_getpage (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`fop_getpage (5 samples, 0.01%)</title><rect x="18.3" y="209" width="0.2" height="15.0" fill="rgb(248,197,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`mod_hash_ptrkey_cmp (17 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`mod_hash_ptrkey_cmp (17 samples, 0.05%)</title><rect x="143.9" y="193" width="0.5" height="15.0" fill="rgb(224,78,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntioctl (136 samples, 0.38%)')" onmouseout="c()">
+<title>mntfs`mntioctl (136 samples, 0.38%)</title><rect x="48.8" y="273" width="4.4" height="15.0" fill="rgb(205,28,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`syscall_mstate (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`syscall_mstate (11 samples, 0.03%)</title><rect x="378.2" y="305" width="0.3" height="15.0" fill="rgb(221,191,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookupnameatcred (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`lookupnameatcred (25 samples, 0.07%)</title><rect x="54.3" y="225" width="0.9" height="15.0" fill="rgb(210,96,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vn_openat (26 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`vn_openat (26 samples, 0.07%)</title><rect x="54.3" y="257" width="0.9" height="15.0" fill="rgb(232,176,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_pte_unmap (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hat_pte_unmap (6 samples, 0.02%)</title><rect x="56.2" y="129" width="0.2" height="15.0" fill="rgb(218,6,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ip`tcp_wput (5 samples, 0.01%)')" onmouseout="c()">
+<title>ip`tcp_wput (5 samples, 0.01%)</title><rect x="53.6" y="209" width="0.1" height="15.0" fill="rgb(208,175,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`mount (3,346 samples, 9.25%)')" onmouseout="c()">
+<title>genunix`mount (3,346 samples, 9.25%)</title><rect x="269.0" y="289" width="109.2" height="15.0" fill="rgb(242,180,14)" rx="2" ry="2" />
+<text text-anchor="" x="271.998921490003" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`mount</text>
+</g>
+<g class="func_g" onmouseover="s('zfs`dmu_read_uio_dbuf (4 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`dmu_read_uio_dbuf (4 samples, 0.01%)</title><rect x="56.6" y="257" width="0.1" height="15.0" fill="rgb(252,75,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_read_map (5 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`pr_read_map (5 samples, 0.01%)</title><rect x="55.6" y="257" width="0.1" height="15.0" fill="rgb(224,96,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`mod_hash_byptr (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`mod_hash_byptr (4 samples, 0.01%)</title><rect x="143.7" y="193" width="0.2" height="15.0" fill="rgb(250,170,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_walk (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_walk (4 samples, 0.01%)</title><rect x="156.3" y="209" width="0.1" height="15.0" fill="rgb(247,132,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_newest (10 samples, 0.03%)')" onmouseout="c()">
+<title>mntfs`mntfs_newest (10 samples, 0.03%)</title><rect x="50.2" y="241" width="0.3" height="15.0" fill="rgb(221,35,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`do_splx (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`do_splx (6 samples, 0.02%)</title><rect x="20.5" y="273" width="0.2" height="15.0" fill="rgb(254,197,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`rusagesys (6,447 samples, 17.83%)')" onmouseout="c()">
+<title>genunix`rusagesys (6,447 samples, 17.83%)</title><rect x="57.9" y="305" width="210.4" height="15.0" fill="rgb(254,193,47)" rx="2" ry="2" />
+<text text-anchor="" x="60.9361743314621" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`rusagesys</text>
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mutex_enter (5 samples, 0.01%)</title><rect x="268.6" y="145" width="0.1" height="15.0" fill="rgb(223,39,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`i_mod_hash_clear_nosync (64 samples, 0.18%)')" onmouseout="c()">
+<title>genunix`i_mod_hash_clear_nosync (64 samples, 0.18%)</title><rect x="259.8" y="193" width="2.1" height="15.0" fill="rgb(230,171,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`kstat_hold (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`kstat_hold (6 samples, 0.02%)</title><rect x="1178.1" y="209" width="0.2" height="15.0" fill="rgb(251,58,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`stat (19 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`stat (19 samples, 0.05%)</title><rect x="268.4" y="305" width="0.6" height="15.0" fill="rgb(245,20,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`cv_waituntil_sig (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`cv_waituntil_sig (4 samples, 0.01%)</title><rect x="378.6" y="273" width="0.1" height="15.0" fill="rgb(235,87,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_zero (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`anon_zero (8 samples, 0.02%)</title><rect x="18.6" y="225" width="0.3" height="15.0" fill="rgb(238,82,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hment_compare (8 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hment_compare (8 samples, 0.02%)</title><rect x="57.5" y="145" width="0.3" height="15.0" fill="rgb(207,220,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`do_splx (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`do_splx (5 samples, 0.01%)</title><rect x="56.3" y="33" width="0.1" height="15.0" fill="rgb(217,202,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`gethrtime_unscaled (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`gethrtime_unscaled (7 samples, 0.02%)</title><rect x="378.3" y="289" width="0.2" height="15.0" fill="rgb(222,116,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`xc_common (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`xc_common (5 samples, 0.01%)</title><rect x="56.3" y="49" width="0.1" height="15.0" fill="rgb(221,60,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (13 samples, 0.04%)')" onmouseout="c()">
+<title>unix`mutex_enter (13 samples, 0.04%)</title><rect x="1114.7" y="225" width="0.4" height="15.0" fill="rgb(207,136,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hati_pte_map (11 samples, 0.03%)')" onmouseout="c()">
+<title>unix`hati_pte_map (11 samples, 0.03%)</title><rect x="18.9" y="177" width="0.4" height="15.0" fill="rgb(242,54,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`cfork (30 samples, 0.08%)')" onmouseout="c()">
+<title>genunix`cfork (30 samples, 0.08%)</title><rect x="22.4" y="289" width="0.9" height="15.0" fill="rgb(234,130,50)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`rw_tryenter (9 samples, 0.02%)')" onmouseout="c()">
+<title>unix`rw_tryenter (9 samples, 0.02%)</title><rect x="254.1" y="225" width="0.3" height="15.0" fill="rgb(219,168,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_tlb_inval_range (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hat_tlb_inval_range (6 samples, 0.02%)</title><rect x="56.2" y="81" width="0.2" height="15.0" fill="rgb(225,21,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`membar_enter (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`membar_enter (7 samples, 0.02%)</title><rect x="176.8" y="225" width="0.3" height="15.0" fill="rgb(228,218,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_decref (17 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`anon_decref (17 samples, 0.05%)</title><rect x="56.8" y="161" width="0.6" height="15.0" fill="rgb(228,150,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`proc_exit (37 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`proc_exit (37 samples, 0.10%)</title><rect x="56.7" y="273" width="1.2" height="15.0" fill="rgb(208,12,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`snprintf (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`snprintf (4 samples, 0.01%)</title><rect x="52.3" y="193" width="0.1" height="15.0" fill="rgb(221,38,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`mutex_enter (6 samples, 0.02%)</title><rect x="262.0" y="177" width="0.2" height="15.0" fill="rgb(212,179,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prread (19 samples, 0.05%)')" onmouseout="c()">
+<title>procfs`prread (19 samples, 0.05%)</title><rect x="55.4" y="273" width="0.6" height="15.0" fill="rgb(217,118,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zone_destroy (15 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`zone_destroy (15 samples, 0.04%)</title><rect x="1188.7" y="289" width="0.5" height="15.0" fill="rgb(251,124,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookuppnatcred (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`lookuppnatcred (25 samples, 0.07%)</title><rect x="54.3" y="209" width="0.9" height="15.0" fill="rgb(224,24,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hment_remove (12 samples, 0.03%)')" onmouseout="c()">
+<title>unix`hment_remove (12 samples, 0.03%)</title><rect x="57.4" y="177" width="0.4" height="15.0" fill="rgb(225,6,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`openat (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`openat (7 samples, 0.02%)</title><rect x="55.2" y="305" width="0.2" height="15.0" fill="rgb(226,227,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hment_insert (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`hment_insert (5 samples, 0.01%)</title><rect x="18.9" y="145" width="0.2" height="15.0" fill="rgb(216,30,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_delay_default (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`mutex_delay_default (6 samples, 0.02%)</title><rect x="1177.8" y="113" width="0.2" height="15.0" fill="rgb(217,127,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`swap_getpage (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`swap_getpage (5 samples, 0.01%)</title><rect x="18.3" y="193" width="0.2" height="15.0" fill="rgb(233,77,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_anon_cmp (346 samples, 0.96%)')" onmouseout="c()">
+<title>genunix`vmu_anon_cmp (346 samples, 0.96%)</title><rect x="115.1" y="193" width="11.3" height="15.0" fill="rgb(208,65,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`netstack_apply_destroy (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`netstack_apply_destroy (12 samples, 0.03%)</title><rect x="1188.8" y="161" width="0.4" height="15.0" fill="rgb(223,62,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`uread (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`uread (5 samples, 0.01%)</title><rect x="55.4" y="225" width="0.2" height="15.0" fill="rgb(249,93,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ufs`ufs_getpage (11 samples, 0.03%)')" onmouseout="c()">
+<title>ufs`ufs_getpage (11 samples, 0.03%)</title><rect x="17.6" y="225" width="0.3" height="15.0" fill="rgb(211,89,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_insert (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_insert (5 samples, 0.01%)</title><rect x="156.5" y="193" width="0.2" height="15.0" fill="rgb(215,224,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_dispose (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`fop_dispose (4 samples, 0.01%)</title><rect x="21.8" y="113" width="0.2" height="15.0" fill="rgb(225,134,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`vsnprintf (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`vsnprintf (4 samples, 0.01%)</title><rect x="50.9" y="193" width="0.2" height="15.0" fill="rgb(215,136,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`priocntl_common (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`priocntl_common (4 samples, 0.01%)</title><rect x="56.0" y="289" width="0.2" height="15.0" fill="rgb(205,59,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_private (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`anon_private (12 samples, 0.03%)</title><rect x="18.3" y="225" width="0.3" height="15.0" fill="rgb(217,37,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_dispose (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`fop_dispose (7 samples, 0.02%)</title><rect x="57.1" y="145" width="0.2" height="15.0" fill="rgb(234,187,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_fault (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`segvn_fault (5 samples, 0.01%)</title><rect x="21.6" y="193" width="0.1" height="15.0" fill="rgb(207,227,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`umount2_engine (24,811 samples, 68.61%)')" onmouseout="c()">
+<title>genunix`umount2_engine (24,811 samples, 68.61%)</title><rect x="378.8" y="289" width="809.6" height="15.0" fill="rgb(206,154,4)" rx="2" ry="2" />
+<text text-anchor="" x="381.772434390642" y="299.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`umount2_engine</text>
+</g>
+<g class="func_g" onmouseover="s('unix`hat_clrattr (11 samples, 0.03%)')" onmouseout="c()">
+<title>unix`hat_clrattr (11 samples, 0.03%)</title><rect x="22.8" y="241" width="0.4" height="15.0" fill="rgb(227,229,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_populate_text (30 samples, 0.08%)')" onmouseout="c()">
+<title>mntfs`mntfs_populate_text (30 samples, 0.08%)</title><rect x="50.5" y="241" width="1.0" height="15.0" fill="rgb(229,81,35)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`swap_getapage (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`swap_getapage (4 samples, 0.01%)</title><rect x="18.7" y="161" width="0.1" height="15.0" fill="rgb(228,63,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_unload_callback (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`hat_unload_callback (14 samples, 0.04%)</title><rect x="57.4" y="209" width="0.5" height="15.0" fill="rgb(244,16,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_freesnap (7 samples, 0.02%)')" onmouseout="c()">
+<title>mntfs`mntfs_freesnap (7 samples, 0.02%)</title><rect x="21.2" y="225" width="0.3" height="15.0" fill="rgb(216,182,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mmapobj_map_interpret (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mmapobj_map_interpret (4 samples, 0.01%)</title><rect x="54.0" y="273" width="0.2" height="15.0" fill="rgb(213,176,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`xc_call (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`xc_call (5 samples, 0.01%)</title><rect x="56.3" y="65" width="0.1" height="15.0" fill="rgb(223,129,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`0xfffffffffb800c8a (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`0xfffffffffb800c8a (4 samples, 0.01%)</title><rect x="20.2" y="321" width="0.2" height="15.0" fill="rgb(239,72,48)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('all (36,161 samples, 100%)')" onmouseout="c()">
+<title>all (36,161 samples, 100%)</title><rect x="10.0" y="337" width="1180.0" height="15.0" fill="rgb(217,89,20)" rx="2" ry="2" />
+<text text-anchor="" x="13" y="347.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_lookup (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`fop_lookup (8 samples, 0.02%)</title><rect x="268.5" y="177" width="0.2" height="15.0" fill="rgb(225,110,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookuppnatcred (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`lookuppnatcred (16 samples, 0.04%)</title><rect x="268.5" y="209" width="0.5" height="15.0" fill="rgb(233,195,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_updateattr (11 samples, 0.03%)')" onmouseout="c()">
+<title>unix`hat_updateattr (11 samples, 0.03%)</title><rect x="22.8" y="225" width="0.4" height="15.0" fill="rgb(214,225,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_free (18 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`anon_free (18 samples, 0.05%)</title><rect x="56.8" y="177" width="0.6" height="15.0" fill="rgb(252,134,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zfs_lookup (6 samples, 0.02%)')" onmouseout="c()">
+<title>zfs`zfs_lookup (6 samples, 0.02%)</title><rect x="268.5" y="161" width="0.2" height="15.0" fill="rgb(238,11,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_vector_enter (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mutex_vector_enter (4 samples, 0.01%)</title><rect x="55.3" y="145" width="0.1" height="15.0" fill="rgb(229,128,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prusrio (11 samples, 0.03%)')" onmouseout="c()">
+<title>procfs`prusrio (11 samples, 0.03%)</title><rect x="56.2" y="241" width="0.4" height="15.0" fill="rgb(214,101,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_delay_default (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mutex_delay_default (4 samples, 0.01%)</title><rect x="1178.2" y="177" width="0.1" height="15.0" fill="rgb(237,211,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_tlb_inval (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hat_tlb_inval (6 samples, 0.02%)</title><rect x="56.2" y="97" width="0.2" height="15.0" fill="rgb(244,158,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('devinfo`di_snapshot (5 samples, 0.01%)')" onmouseout="c()">
+<title>devinfo`di_snapshot (5 samples, 0.01%)</title><rect x="53.2" y="209" width="0.2" height="15.0" fill="rgb(228,77,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`modctl (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`modctl (5 samples, 0.01%)</title><rect x="54.2" y="305" width="0.1" height="15.0" fill="rgb(246,13,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zfs_read (4 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`zfs_read (4 samples, 0.01%)</title><rect x="56.6" y="273" width="0.1" height="15.0" fill="rgb(230,35,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('elfexec`mapelfexec (5 samples, 0.01%)')" onmouseout="c()">
+<title>elfexec`mapelfexec (5 samples, 0.01%)</title><rect x="21.6" y="241" width="0.1" height="15.0" fill="rgb(226,83,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_find (10 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`avl_find (10 samples, 0.03%)</title><rect x="57.4" y="161" width="0.4" height="15.0" fill="rgb(236,1,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('elfexec`elf32exec (25 samples, 0.07%)')" onmouseout="c()">
+<title>elfexec`elf32exec (25 samples, 0.07%)</title><rect x="21.6" y="257" width="0.8" height="15.0" fill="rgb(243,4,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`netstack_zone_destroy (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`netstack_zone_destroy (12 samples, 0.03%)</title><rect x="1188.8" y="225" width="0.4" height="15.0" fill="rgb(242,21,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`urw (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`urw (11 samples, 0.03%)</title><rect x="56.2" y="209" width="0.4" height="15.0" fill="rgb(236,192,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_insert_here (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_insert_here (5 samples, 0.01%)</title><rect x="156.5" y="209" width="0.2" height="15.0" fill="rgb(231,91,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_getpage (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`fop_getpage (5 samples, 0.01%)</title><rect x="18.7" y="209" width="0.1" height="15.0" fill="rgb(213,52,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zfs_inactive (10 samples, 0.03%)')" onmouseout="c()">
+<title>zfs`zfs_inactive (10 samples, 0.03%)</title><rect x="1087.4" y="209" width="0.3" height="15.0" fill="rgb(224,189,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zfs_zinactive (8 samples, 0.02%)')" onmouseout="c()">
+<title>zfs`zfs_zinactive (8 samples, 0.02%)</title><rect x="1087.5" y="193" width="0.2" height="15.0" fill="rgb(225,34,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`seg_alloc (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`seg_alloc (4 samples, 0.01%)</title><rect x="22.4" y="257" width="0.2" height="15.0" fill="rgb(219,151,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_lookup_procdir (6 samples, 0.02%)')" onmouseout="c()">
+<title>procfs`pr_lookup_procdir (6 samples, 0.02%)</title><rect x="55.2" y="161" width="0.2" height="15.0" fill="rgb(250,60,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`did_to_thread (10 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`did_to_thread (10 samples, 0.03%)</title><rect x="1189.5" y="145" width="0.3" height="15.0" fill="rgb(231,71,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`traverse (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`traverse (8 samples, 0.02%)</title><rect x="268.7" y="177" width="0.3" height="15.0" fill="rgb(229,19,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_dup (23 samples, 0.06%)')" onmouseout="c()">
+<title>genunix`segvn_dup (23 samples, 0.06%)</title><rect x="22.6" y="257" width="0.7" height="15.0" fill="rgb(235,39,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_anon_cmp (21 samples, 0.06%)')" onmouseout="c()">
+<title>genunix`vmu_anon_cmp (21 samples, 0.06%)</title><rect x="111.4" y="177" width="0.7" height="15.0" fill="rgb(208,88,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_vnode_update_incore_bounds (584 samples, 1.61%)')" onmouseout="c()">
+<title>genunix`vmu_vnode_update_incore_bounds (584 samples, 1.61%)</title><rect x="157.8" y="225" width="19.0" height="15.0" fill="rgb(234,228,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookupnameat (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`lookupnameat (25 samples, 0.07%)</title><rect x="54.3" y="241" width="0.9" height="15.0" fill="rgb(205,140,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`netstack_apply_shutdown (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`netstack_apply_shutdown (11 samples, 0.03%)</title><rect x="1189.5" y="193" width="0.3" height="15.0" fill="rgb(215,12,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`exece (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`exece (25 samples, 0.07%)</title><rect x="21.6" y="305" width="0.8" height="15.0" fill="rgb(232,28,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookupnameatcred (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`lookupnameatcred (16 samples, 0.04%)</title><rect x="268.5" y="225" width="0.5" height="15.0" fill="rgb(206,220,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prusrio (5 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`prusrio (5 samples, 0.01%)</title><rect x="55.4" y="241" width="0.2" height="15.0" fill="rgb(245,188,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`dnlc_purge_vfsp (21,741 samples, 60.12%)')" onmouseout="c()">
+<title>genunix`dnlc_purge_vfsp (21,741 samples, 60.12%)</title><rect x="378.8" y="257" width="709.4" height="15.0" fill="rgb(231,162,26)" rx="2" ry="2" />
+<text text-anchor="" x="381.772434390642" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`dnlc_purge_vfsp</text>
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_vector_enter (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mutex_vector_enter (4 samples, 0.01%)</title><rect x="54.6" y="129" width="0.1" height="15.0" fill="rgb(214,91,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`mapout (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`mapout (6 samples, 0.02%)</title><rect x="56.2" y="193" width="0.2" height="15.0" fill="rgb(231,27,29)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookupnameatcred (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`lookupnameatcred (7 samples, 0.02%)</title><rect x="55.2" y="241" width="0.2" height="15.0" fill="rgb(245,210,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_close (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`fop_close (8 samples, 0.02%)</title><rect x="21.2" y="257" width="0.3" height="15.0" fill="rgb(244,218,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`netstack_zone_shutdown (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`netstack_zone_shutdown (11 samples, 0.03%)</title><rect x="1189.5" y="225" width="0.3" height="15.0" fill="rgb(243,157,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_clear_calc (156 samples, 0.43%)')" onmouseout="c()">
+<title>genunix`vmu_clear_calc (156 samples, 0.43%)</title><rect x="257.2" y="257" width="5.1" height="15.0" fill="rgb(253,183,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookupnameat (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`lookupnameat (7 samples, 0.02%)</title><rect x="55.2" y="257" width="0.2" height="15.0" fill="rgb(249,38,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_readdir_procdir (701 samples, 1.94%)')" onmouseout="c()">
+<title>procfs`pr_readdir_procdir (701 samples, 1.94%)</title><rect x="25.9" y="257" width="22.9" height="15.0" fill="rgb(221,70,53)" rx="2" ry="2" />
+<text text-anchor="" x="28.8917065346644" y="267.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >p..</text>
+</g>
+<g class="func_g" onmouseover="s('unix`hment_remove (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`hment_remove (4 samples, 0.01%)</title><rect x="22.0" y="145" width="0.1" height="15.0" fill="rgb(233,225,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`traverse (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`traverse (6 samples, 0.02%)</title><rect x="54.9" y="177" width="0.2" height="15.0" fill="rgb(239,111,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_rotation (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_rotation (5 samples, 0.01%)</title><rect x="159.1" y="177" width="0.2" height="15.0" fill="rgb(222,2,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zfs_znode_dmu_fini (4 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`zfs_znode_dmu_fini (4 samples, 0.01%)</title><rect x="1087.5" y="177" width="0.1" height="15.0" fill="rgb(205,192,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`_sys_rtt_ints_disabled (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`_sys_rtt_ints_disabled (4 samples, 0.01%)</title><rect x="1088.0" y="241" width="0.2" height="15.0" fill="rgb(219,18,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`pid_entry (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`pid_entry (4 samples, 0.01%)</title><rect x="58.1" y="257" width="0.1" height="15.0" fill="rgb(238,155,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zsd_apply_shutdown (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`zsd_apply_shutdown (11 samples, 0.03%)</title><rect x="1189.5" y="241" width="0.3" height="15.0" fill="rgb(209,88,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_devsize (4 samples, 0.01%)')" onmouseout="c()">
+<title>mntfs`mntfs_devsize (4 samples, 0.01%)</title><rect x="52.3" y="209" width="0.1" height="15.0" fill="rgb(210,102,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zsd_apply_all_keys (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`zsd_apply_all_keys (12 samples, 0.03%)</title><rect x="1188.8" y="257" width="0.4" height="15.0" fill="rgb(241,141,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_calculate_seg (5,888 samples, 16.28%)')" onmouseout="c()">
+<title>genunix`vmu_calculate_seg (5,888 samples, 16.28%)</title><rect x="62.2" y="241" width="192.2" height="15.0" fill="rgb(253,150,4)" rx="2" ry="2" />
+<text text-anchor="" x="65.2435773346976" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`vmu_calculate_seg</text>
+</g>
+<g class="func_g" onmouseover="s('devinfo`di_copytree (4 samples, 0.01%)')" onmouseout="c()">
+<title>devinfo`di_copytree (4 samples, 0.01%)</title><rect x="53.2" y="193" width="0.2" height="15.0" fill="rgb(211,124,31)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`pid_entry (479 samples, 1.32%)')" onmouseout="c()">
+<title>genunix`pid_entry (479 samples, 1.32%)</title><rect x="33.1" y="241" width="15.6" height="15.0" fill="rgb(233,92,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_get_next_ptr (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`anon_get_next_ptr (4 samples, 0.01%)</title><rect x="58.3" y="241" width="0.2" height="15.0" fill="rgb(222,120,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`strioctl (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`strioctl (5 samples, 0.01%)</title><rect x="53.6" y="257" width="0.1" height="15.0" fill="rgb(244,145,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('specfs`spec_ioctl (16 samples, 0.04%)')" onmouseout="c()">
+<title>specfs`spec_ioctl (16 samples, 0.04%)</title><rect x="53.2" y="273" width="0.5" height="15.0" fill="rgb(214,181,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`0xfffffffffb8001d6 (93 samples, 0.26%)')" onmouseout="c()">
+<title>unix`0xfffffffffb8001d6 (93 samples, 0.26%)</title><rect x="17.2" y="321" width="3.0" height="15.0" fill="rgb(247,185,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zil_close (14 samples, 0.04%)')" onmouseout="c()">
+<title>zfs`zil_close (14 samples, 0.04%)</title><rect x="1177.6" y="209" width="0.5" height="15.0" fill="rgb(251,4,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_free_entity (118 samples, 0.33%)')" onmouseout="c()">
+<title>genunix`vmu_free_entity (118 samples, 0.33%)</title><rect x="258.4" y="209" width="3.8" height="15.0" fill="rgb(218,126,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`default_lock_delay (18 samples, 0.05%)')" onmouseout="c()">
+<title>unix`default_lock_delay (18 samples, 0.05%)</title><rect x="373.5" y="225" width="0.5" height="15.0" fill="rgb(206,222,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`pr_read_as (11 samples, 0.03%)')" onmouseout="c()">
+<title>procfs`pr_read_as (11 samples, 0.03%)</title><rect x="56.2" y="257" width="0.4" height="15.0" fill="rgb(231,36,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`bcmp (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`bcmp (14 samples, 0.04%)</title><rect x="49.7" y="225" width="0.5" height="15.0" fill="rgb(246,175,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hati_load_common (21 samples, 0.06%)')" onmouseout="c()">
+<title>unix`hati_load_common (21 samples, 0.06%)</title><rect x="19.5" y="209" width="0.6" height="15.0" fill="rgb(223,186,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_insert (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`avl_insert (7 samples, 0.02%)</title><rect x="159.0" y="193" width="0.3" height="15.0" fill="rgb(220,178,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`mmapobjsys (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`mmapobjsys (4 samples, 0.01%)</title><rect x="54.0" y="305" width="0.2" height="15.0" fill="rgb(215,69,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`as_fault (89 samples, 0.25%)')" onmouseout="c()">
+<title>genunix`as_fault (89 samples, 0.25%)</title><rect x="17.3" y="273" width="2.9" height="15.0" fill="rgb(212,176,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_get_ptr (18 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`anon_get_ptr (18 samples, 0.05%)</title><rect x="102.6" y="209" width="0.6" height="15.0" fill="rgb(218,115,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prgetmap (5 samples, 0.01%)')" onmouseout="c()">
+<title>procfs`prgetmap (5 samples, 0.01%)</title><rect x="55.6" y="225" width="0.1" height="15.0" fill="rgb(223,151,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_text_len (46 samples, 0.13%)')" onmouseout="c()">
+<title>mntfs`mntfs_text_len (46 samples, 0.13%)</title><rect x="51.5" y="241" width="1.5" height="15.0" fill="rgb(227,161,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zsd_apply_all_keys (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`zsd_apply_all_keys (11 samples, 0.03%)</title><rect x="1189.5" y="257" width="0.3" height="15.0" fill="rgb(212,31,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_find (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`avl_find (16 samples, 0.04%)</title><rect x="19.5" y="129" width="0.6" height="15.0" fill="rgb(219,81,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`exit (37 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`exit (37 samples, 0.10%)</title><rect x="56.7" y="289" width="1.2" height="15.0" fill="rgb(210,46,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_exists (205 samples, 0.57%)')" onmouseout="c()">
+<title>unix`page_exists (205 samples, 0.57%)</title><rect x="103.2" y="209" width="6.7" height="15.0" fill="rgb(220,83,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_numtopp_nolock (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`page_numtopp_nolock (7 samples, 0.02%)</title><rect x="23.0" y="209" width="0.2" height="15.0" fill="rgb(244,198,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_free (18 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`segvn_free (18 samples, 0.05%)</title><rect x="56.8" y="193" width="0.6" height="15.0" fill="rgb(242,89,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_add (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`avl_add (16 samples, 0.04%)</title><rect x="19.5" y="145" width="0.6" height="15.0" fill="rgb(237,147,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('devinfo`di_ioctl (5 samples, 0.01%)')" onmouseout="c()">
+<title>devinfo`di_ioctl (5 samples, 0.01%)</title><rect x="53.2" y="241" width="0.2" height="15.0" fill="rgb(208,199,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_destroy_nodes (44 samples, 0.12%)')" onmouseout="c()">
+<title>genunix`avl_destroy_nodes (44 samples, 0.12%)</title><rect x="258.4" y="193" width="1.4" height="15.0" fill="rgb(224,22,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_decref (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`anon_decref (6 samples, 0.02%)</title><rect x="21.8" y="129" width="0.2" height="15.0" fill="rgb(241,73,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_snapshot (112 samples, 0.31%)')" onmouseout="c()">
+<title>mntfs`mntfs_snapshot (112 samples, 0.31%)</title><rect x="49.5" y="257" width="3.6" height="15.0" fill="rgb(240,195,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`tsc_read (11 samples, 0.03%)')" onmouseout="c()">
+<title>unix`tsc_read (11 samples, 0.03%)</title><rect x="267.9" y="241" width="0.4" height="15.0" fill="rgb(238,220,15)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_find_insert_object (558 samples, 1.54%)')" onmouseout="c()">
+<title>genunix`vmu_find_insert_object (558 samples, 1.54%)</title><rect x="127.2" y="225" width="18.2" height="15.0" fill="rgb(237,34,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_devprint (9 samples, 0.02%)')" onmouseout="c()">
+<title>mntfs`mntfs_devprint (9 samples, 0.02%)</title><rect x="50.6" y="209" width="0.3" height="15.0" fill="rgb(217,12,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`page_exists (2,358 samples, 6.52%)')" onmouseout="c()">
+<title>unix`page_exists (2,358 samples, 6.52%)</title><rect x="177.1" y="225" width="76.9" height="15.0" fill="rgb(226,205,38)" rx="2" ry="2" />
+<text text-anchor="" x="180.075025580045" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >unix`pag..</text>
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (33 samples, 0.09%)')" onmouseout="c()">
+<title>unix`mutex_enter (33 samples, 0.09%)</title><rect x="1176.3" y="225" width="1.0" height="15.0" fill="rgb(223,46,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_update_bounds (42 samples, 0.12%)')" onmouseout="c()">
+<title>genunix`vmu_update_bounds (42 samples, 0.12%)</title><rect x="156.4" y="225" width="1.4" height="15.0" fill="rgb(250,214,8)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_vector_enter (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`mutex_vector_enter (6 samples, 0.02%)</title><rect x="1178.1" y="193" width="0.2" height="15.0" fill="rgb(248,91,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`dounmount (24,811 samples, 68.61%)')" onmouseout="c()">
+<title>genunix`dounmount (24,811 samples, 68.61%)</title><rect x="378.8" y="273" width="809.6" height="15.0" fill="rgb(249,166,31)" rx="2" ry="2" />
+<text text-anchor="" x="381.772434390642" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`dounmount</text>
+</g>
+<g class="func_g" onmouseover="s('unix`page_destroy (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`page_destroy (6 samples, 0.02%)</title><rect x="57.1" y="97" width="0.2" height="15.0" fill="rgb(227,143,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`gexec (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`gexec (25 samples, 0.07%)</title><rect x="21.6" y="273" width="0.8" height="15.0" fill="rgb(231,130,14)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`thread_join (10 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`thread_join (10 samples, 0.03%)</title><rect x="1189.5" y="161" width="0.3" height="15.0" fill="rgb(221,149,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`exec_common (25 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`exec_common (25 samples, 0.07%)</title><rect x="21.6" y="289" width="0.8" height="15.0" fill="rgb(212,74,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`pre_syscall (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`pre_syscall (4 samples, 0.01%)</title><rect x="20.2" y="305" width="0.2" height="15.0" fill="rgb(254,81,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zone (37 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`zone (37 samples, 0.10%)</title><rect x="1188.6" y="305" width="1.2" height="15.0" fill="rgb(218,208,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_pte_unmap (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`hat_pte_unmap (5 samples, 0.01%)</title><rect x="22.0" y="161" width="0.2" height="15.0" fill="rgb(239,105,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_is_same_element (14 samples, 0.04%)')" onmouseout="c()">
+<title>mntfs`mntfs_is_same_element (14 samples, 0.04%)</title><rect x="49.7" y="241" width="0.5" height="15.0" fill="rgb(235,206,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prreaddir (779 samples, 2.15%)')" onmouseout="c()">
+<title>procfs`prreaddir (779 samples, 2.15%)</title><rect x="23.3" y="273" width="25.5" height="15.0" fill="rgb(237,10,7)" rx="2" ry="2" />
+<text text-anchor="" x="26.3464229418434" y="283.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >p..</text>
+</g>
+<g class="func_g" onmouseover="s('unix`snprintf (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`snprintf (7 samples, 0.02%)</title><rect x="50.6" y="193" width="0.3" height="15.0" fill="rgb(245,73,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_alloc_object (14 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`vmu_alloc_object (14 samples, 0.04%)</title><rect x="145.0" y="209" width="0.4" height="15.0" fill="rgb(220,74,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_memload (21 samples, 0.06%)')" onmouseout="c()">
+<title>unix`hat_memload (21 samples, 0.06%)</title><rect x="19.5" y="225" width="0.6" height="15.0" fill="rgb(244,71,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_free (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`anon_free (7 samples, 0.02%)</title><rect x="21.7" y="145" width="0.3" height="15.0" fill="rgb(205,57,39)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`zfs_umount (1,927 samples, 5.33%)')" onmouseout="c()">
+<title>zfs`zfs_umount (1,927 samples, 5.33%)</title><rect x="1115.2" y="241" width="62.9" height="15.0" fill="rgb(232,219,4)" rx="2" ry="2" />
+<text text-anchor="" x="1118.20782058018" y="251.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >zfs`zf..</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`closef (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`closef (11 samples, 0.03%)</title><rect x="21.2" y="273" width="0.4" height="15.0" fill="rgb(242,137,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`rw_enter (67 samples, 0.19%)')" onmouseout="c()">
+<title>unix`rw_enter (67 samples, 0.19%)</title><rect x="254.6" y="241" width="2.2" height="15.0" fill="rgb(214,23,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`i_mod_hash_find_nosync (524 samples, 1.45%)')" onmouseout="c()">
+<title>genunix`i_mod_hash_find_nosync (524 samples, 1.45%)</title><rect x="127.3" y="209" width="17.1" height="15.0" fill="rgb(213,175,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`exec_args (19 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`exec_args (19 samples, 0.05%)</title><rect x="21.7" y="241" width="0.6" height="15.0" fill="rgb(229,2,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`do_interrupt (8 samples, 0.02%)')" onmouseout="c()">
+<title>unix`do_interrupt (8 samples, 0.02%)</title><rect x="1087.8" y="225" width="0.2" height="15.0" fill="rgb(220,182,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_insert_here (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`avl_insert_here (7 samples, 0.02%)</title><rect x="159.0" y="209" width="0.3" height="15.0" fill="rgb(217,74,33)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_add (59 samples, 0.16%)')" onmouseout="c()">
+<title>genunix`avl_add (59 samples, 0.16%)</title><rect x="110.9" y="209" width="2.0" height="15.0" fill="rgb(236,55,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_first (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_first (5 samples, 0.01%)</title><rect x="58.5" y="241" width="0.1" height="15.0" fill="rgb(208,109,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`rexit (37 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`rexit (37 samples, 0.10%)</title><rect x="56.7" y="305" width="1.2" height="15.0" fill="rgb(219,47,16)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('devinfo`di_snapshot_and_clean (5 samples, 0.01%)')" onmouseout="c()">
+<title>devinfo`di_snapshot_and_clean (5 samples, 0.01%)</title><rect x="53.2" y="225" width="0.2" height="15.0" fill="rgb(243,136,46)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_memload (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`hat_memload (14 samples, 0.04%)</title><rect x="18.9" y="209" width="0.5" height="15.0" fill="rgb(205,21,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_free_zone (118 samples, 0.33%)')" onmouseout="c()">
+<title>genunix`vmu_free_zone (118 samples, 0.33%)</title><rect x="258.4" y="225" width="3.8" height="15.0" fill="rgb(240,201,25)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zone_zsd_callbacks (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`zone_zsd_callbacks (11 samples, 0.03%)</title><rect x="1189.5" y="273" width="0.3" height="15.0" fill="rgb(252,189,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_memload_region (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`hat_memload_region (14 samples, 0.04%)</title><rect x="18.9" y="225" width="0.5" height="15.0" fill="rgb(217,65,49)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hat_unload (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`hat_unload (6 samples, 0.02%)</title><rect x="56.2" y="161" width="0.2" height="15.0" fill="rgb(219,5,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_newest (7 samples, 0.02%)')" onmouseout="c()">
+<title>mntfs`mntfs_newest (7 samples, 0.02%)</title><rect x="49.2" y="225" width="0.2" height="15.0" fill="rgb(208,135,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`as_dup (29 samples, 0.08%)')" onmouseout="c()">
+<title>genunix`as_dup (29 samples, 0.08%)</title><rect x="22.4" y="273" width="0.9" height="15.0" fill="rgb(235,200,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_ioctl (152 samples, 0.42%)')" onmouseout="c()">
+<title>genunix`fop_ioctl (152 samples, 0.42%)</title><rect x="48.8" y="289" width="4.9" height="15.0" fill="rgb(252,188,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mmapobj_map_elf (4 samples, 0.01%)')" onmouseout="c()">
+<title>unix`mmapobj_map_elf (4 samples, 0.01%)</title><rect x="54.0" y="257" width="0.2" height="15.0" fill="rgb(232,91,6)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`apply_all_modules_reverse (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`apply_all_modules_reverse (12 samples, 0.03%)</title><rect x="1188.8" y="177" width="0.4" height="15.0" fill="rgb(235,24,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`taskq_destroy (14 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`taskq_destroy (14 samples, 0.04%)</title><rect x="1177.6" y="193" width="0.5" height="15.0" fill="rgb(214,109,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`vsnprintf (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`vsnprintf (7 samples, 0.02%)</title><rect x="50.6" y="177" width="0.3" height="15.0" fill="rgb(233,120,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_get_next_ptr (190 samples, 0.53%)')" onmouseout="c()">
+<title>genunix`anon_get_next_ptr (190 samples, 0.53%)</title><rect x="94.4" y="225" width="6.2" height="15.0" fill="rgb(210,100,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_unmap (15 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`segvn_unmap (15 samples, 0.04%)</title><rect x="21.7" y="193" width="0.5" height="15.0" fill="rgb(241,126,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_vector_enter (180 samples, 0.50%)')" onmouseout="c()">
+<title>unix`mutex_vector_enter (180 samples, 0.50%)</title><rect x="262.4" y="257" width="5.9" height="15.0" fill="rgb(214,136,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_elem_in_range (4 samples, 0.01%)')" onmouseout="c()">
+<title>mntfs`mntfs_elem_in_range (4 samples, 0.01%)</title><rect x="21.3" y="209" width="0.2" height="15.0" fill="rgb(244,25,45)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`as_free (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`as_free (16 samples, 0.04%)</title><rect x="21.7" y="209" width="0.5" height="15.0" fill="rgb(239,180,42)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hment_insert (17 samples, 0.05%)')" onmouseout="c()">
+<title>unix`hment_insert (17 samples, 0.05%)</title><rect x="19.5" y="161" width="0.6" height="15.0" fill="rgb(245,63,51)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_fault (84 samples, 0.23%)')" onmouseout="c()">
+<title>genunix`segvn_fault (84 samples, 0.23%)</title><rect x="17.4" y="257" width="2.8" height="15.0" fill="rgb(235,3,32)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`pvn_getpages (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`pvn_getpages (4 samples, 0.01%)</title><rect x="18.7" y="177" width="0.1" height="15.0" fill="rgb(228,136,24)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lookuppnatcred (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`lookuppnatcred (7 samples, 0.02%)</title><rect x="55.2" y="225" width="0.2" height="15.0" fill="rgb(208,46,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`syscall_ap (3,346 samples, 9.25%)')" onmouseout="c()">
+<title>genunix`syscall_ap (3,346 samples, 9.25%)</title><rect x="269.0" y="305" width="109.2" height="15.0" fill="rgb(218,194,15)" rx="2" ry="2" />
+<text text-anchor="" x="271.998921490003" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`sysca..</text>
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_exit (17 samples, 0.05%)')" onmouseout="c()">
+<title>unix`mutex_exit (17 samples, 0.05%)</title><rect x="1187.8" y="257" width="0.6" height="15.0" fill="rgb(233,137,18)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`kmem_free (9 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`kmem_free (9 samples, 0.02%)</title><rect x="261.9" y="193" width="0.3" height="15.0" fill="rgb(224,20,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_copyout_elem (9 samples, 0.02%)')" onmouseout="c()">
+<title>mntfs`mntfs_copyout_elem (9 samples, 0.02%)</title><rect x="48.8" y="257" width="0.3" height="15.0" fill="rgb(225,70,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`x86pte_inval (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`x86pte_inval (6 samples, 0.02%)</title><rect x="56.2" y="113" width="0.2" height="15.0" fill="rgb(217,171,23)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`i_mod_hash (9 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`i_mod_hash (9 samples, 0.02%)</title><rect x="143.4" y="193" width="0.3" height="15.0" fill="rgb(241,22,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fs_dispose (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`fs_dispose (6 samples, 0.02%)</title><rect x="57.1" y="113" width="0.2" height="15.0" fill="rgb(238,6,36)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_insert (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`avl_insert (4 samples, 0.01%)</title><rect x="152.1" y="209" width="0.1" height="15.0" fill="rgb(243,17,28)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_newest (4 samples, 0.01%)')" onmouseout="c()">
+<title>mntfs`mntfs_newest (4 samples, 0.01%)</title><rect x="21.3" y="193" width="0.2" height="15.0" fill="rgb(236,165,7)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`lwp_park (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`lwp_park (5 samples, 0.01%)</title><rect x="378.6" y="289" width="0.2" height="15.0" fill="rgb(253,130,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`swap_getpage (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`swap_getpage (5 samples, 0.01%)</title><rect x="18.7" y="193" width="0.1" height="15.0" fill="rgb(236,151,22)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_enter (54 samples, 0.15%)')" onmouseout="c()">
+<title>unix`mutex_enter (54 samples, 0.15%)</title><rect x="375.8" y="257" width="1.8" height="15.0" fill="rgb(210,11,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_find (35 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`avl_find (35 samples, 0.10%)</title><rect x="111.0" y="193" width="1.1" height="15.0" fill="rgb(230,192,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_free_object (58 samples, 0.16%)')" onmouseout="c()">
+<title>genunix`vmu_free_object (58 samples, 0.16%)</title><rect x="259.9" y="177" width="1.9" height="15.0" fill="rgb(216,106,30)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_inactive (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`fop_inactive (11 samples, 0.03%)</title><rect x="1087.4" y="225" width="0.3" height="15.0" fill="rgb(235,184,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`pid_entry (78 samples, 0.22%)')" onmouseout="c()">
+<title>genunix`pid_entry (78 samples, 0.22%)</title><rect x="23.3" y="257" width="2.6" height="15.0" fill="rgb(229,18,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_alloc_bound (18 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`vmu_alloc_bound (18 samples, 0.05%)</title><rect x="155.5" y="209" width="0.6" height="15.0" fill="rgb(254,147,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('procfs`prlookup (6 samples, 0.02%)')" onmouseout="c()">
+<title>procfs`prlookup (6 samples, 0.02%)</title><rect x="55.2" y="177" width="0.2" height="15.0" fill="rgb(235,102,12)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`modctl_moddevname (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`modctl_moddevname (5 samples, 0.01%)</title><rect x="54.2" y="289" width="0.1" height="15.0" fill="rgb(237,67,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_first (14 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`avl_first (14 samples, 0.04%)</title><rect x="261.3" y="145" width="0.5" height="15.0" fill="rgb(215,134,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`cstatat_getvp (16 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`cstatat_getvp (16 samples, 0.04%)</title><rect x="268.5" y="257" width="0.5" height="15.0" fill="rgb(244,71,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`dnlc_purge_vfsp (812 samples, 2.25%)')" onmouseout="c()">
+<title>genunix`dnlc_purge_vfsp (812 samples, 2.25%)</title><rect x="1088.2" y="225" width="26.5" height="15.0" fill="rgb(234,164,10)" rx="2" ry="2" />
+<text text-anchor="" x="1091.22128812809" y="235.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >g..</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_lookup (17 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`fop_lookup (17 samples, 0.05%)</title><rect x="54.3" y="177" width="0.6" height="15.0" fill="rgb(218,142,20)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_delay_default (39 samples, 0.11%)')" onmouseout="c()">
+<title>unix`mutex_delay_default (39 samples, 0.11%)</title><rect x="374.0" y="225" width="1.3" height="15.0" fill="rgb(231,10,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`kstat_hold_bykid (6 samples, 0.02%)')" onmouseout="c()">
+<title>unix`kstat_hold_bykid (6 samples, 0.02%)</title><rect x="1178.1" y="225" width="0.2" height="15.0" fill="rgb(209,86,52)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`0xfffffffffb800cc6 (12 samples, 0.03%)')" onmouseout="c()">
+<title>unix`0xfffffffffb800cc6 (12 samples, 0.03%)</title><rect x="20.4" y="321" width="0.4" height="15.0" fill="rgb(205,67,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`kstat_hold_bykid (14 samples, 0.04%)')" onmouseout="c()">
+<title>unix`kstat_hold_bykid (14 samples, 0.04%)</title><rect x="1177.6" y="161" width="0.5" height="15.0" fill="rgb(252,211,38)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`dmu_objset_evict_dbufs (8 samples, 0.02%)')" onmouseout="c()">
+<title>zfs`dmu_objset_evict_dbufs (8 samples, 0.02%)</title><rect x="1177.4" y="209" width="0.2" height="15.0" fill="rgb(239,177,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`arc_clear_callback (4 samples, 0.01%)')" onmouseout="c()">
+<title>zfs`arc_clear_callback (4 samples, 0.01%)</title><rect x="1177.4" y="161" width="0.2" height="15.0" fill="rgb(212,141,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`zsd_apply_destroy (12 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`zsd_apply_destroy (12 samples, 0.03%)</title><rect x="1188.8" y="241" width="0.4" height="15.0" fill="rgb(214,49,11)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`closeandsetf (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`closeandsetf (11 samples, 0.03%)</title><rect x="21.2" y="289" width="0.4" height="15.0" fill="rgb(229,58,3)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`segvn_free (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`segvn_free (7 samples, 0.02%)</title><rect x="21.7" y="161" width="0.3" height="15.0" fill="rgb(206,6,53)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`getdents64 (779 samples, 2.15%)')" onmouseout="c()">
+<title>genunix`getdents64 (779 samples, 2.15%)</title><rect x="23.3" y="305" width="25.5" height="15.0" fill="rgb(217,15,30)" rx="2" ry="2" />
+<text text-anchor="" x="26.3464229418434" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >g..</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`umount2 (24,816 samples, 68.63%)')" onmouseout="c()">
+<title>genunix`umount2 (24,816 samples, 68.63%)</title><rect x="378.8" y="305" width="809.8" height="15.0" fill="rgb(240,155,5)" rx="2" ry="2" />
+<text text-anchor="" x="381.772434390642" y="315.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >genunix`umount2</text>
+</g>
+<g class="func_g" onmouseover="s('genunix`read (15 samples, 0.04%)')" onmouseout="c()">
+<title>genunix`read (15 samples, 0.04%)</title><rect x="56.2" y="305" width="0.5" height="15.0" fill="rgb(237,22,0)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`post_syscall (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`post_syscall (11 samples, 0.03%)</title><rect x="20.4" y="305" width="0.4" height="15.0" fill="rgb(211,46,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hment_assign (5 samples, 0.01%)')" onmouseout="c()">
+<title>unix`hment_assign (5 samples, 0.01%)</title><rect x="18.9" y="161" width="0.2" height="15.0" fill="rgb(205,9,5)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ip`tcp_ioctl_abort_conn (5 samples, 0.01%)')" onmouseout="c()">
+<title>ip`tcp_ioctl_abort_conn (5 samples, 0.01%)</title><rect x="53.6" y="193" width="0.1" height="15.0" fill="rgb(213,3,43)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('zfs`dnode_evict_dbufs (6 samples, 0.02%)')" onmouseout="c()">
+<title>zfs`dnode_evict_dbufs (6 samples, 0.02%)</title><rect x="1177.4" y="193" width="0.2" height="15.0" fill="rgb(247,210,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_read (19 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`fop_read (19 samples, 0.05%)</title><rect x="55.4" y="289" width="0.6" height="15.0" fill="rgb(226,23,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`kstat_delete (7 samples, 0.02%)')" onmouseout="c()">
+<title>unix`kstat_delete (7 samples, 0.02%)</title><rect x="1178.1" y="241" width="0.2" height="15.0" fill="rgb(227,181,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`did_to_thread (11 samples, 0.03%)')" onmouseout="c()">
+<title>genunix`did_to_thread (11 samples, 0.03%)</title><rect x="1188.8" y="97" width="0.4" height="15.0" fill="rgb(238,3,9)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_elem_in_range (8 samples, 0.02%)')" onmouseout="c()">
+<title>mntfs`mntfs_elem_in_range (8 samples, 0.02%)</title><rect x="49.1" y="241" width="0.3" height="15.0" fill="rgb(211,28,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`mutex_vector_enter (73 samples, 0.20%)')" onmouseout="c()">
+<title>unix`mutex_vector_enter (73 samples, 0.20%)</title><rect x="373.1" y="241" width="2.3" height="15.0" fill="rgb(213,50,47)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_dup (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`anon_dup (6 samples, 0.02%)</title><rect x="22.6" y="241" width="0.2" height="15.0" fill="rgb(223,179,54)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`new_mstate (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`new_mstate (4 samples, 0.01%)</title><rect x="17.2" y="289" width="0.1" height="15.0" fill="rgb(241,5,21)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vfs_mntpoint2vfsp (5 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`vfs_mntpoint2vfsp (5 samples, 0.01%)</title><rect x="1188.4" y="289" width="0.2" height="15.0" fill="rgb(245,48,19)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`seg_free (18 samples, 0.05%)')" onmouseout="c()">
+<title>genunix`seg_free (18 samples, 0.05%)</title><rect x="56.8" y="209" width="0.6" height="15.0" fill="rgb(205,70,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`fop_lookup (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`fop_lookup (6 samples, 0.02%)</title><rect x="55.2" y="193" width="0.2" height="15.0" fill="rgb(239,156,17)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntfs_optsize (15 samples, 0.04%)')" onmouseout="c()">
+<title>mntfs`mntfs_optsize (15 samples, 0.04%)</title><rect x="51.9" y="225" width="0.5" height="15.0" fill="rgb(212,34,26)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`avl_find (157 samples, 0.43%)')" onmouseout="c()">
+<title>genunix`avl_find (157 samples, 0.43%)</title><rect x="147.0" y="209" width="5.1" height="15.0" fill="rgb(229,118,1)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`copen (27 samples, 0.07%)')" onmouseout="c()">
+<title>genunix`copen (27 samples, 0.07%)</title><rect x="54.3" y="273" width="0.9" height="15.0" fill="rgb(231,17,44)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('ip`ip_stack_shutdown (11 samples, 0.03%)')" onmouseout="c()">
+<title>ip`ip_stack_shutdown (11 samples, 0.03%)</title><rect x="1189.5" y="177" width="0.3" height="15.0" fill="rgb(239,108,13)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('unix`hment_compare (15 samples, 0.04%)')" onmouseout="c()">
+<title>unix`hment_compare (15 samples, 0.04%)</title><rect x="19.6" y="113" width="0.5" height="15.0" fill="rgb(208,15,41)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`disp_lock_exit (6 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`disp_lock_exit (6 samples, 0.02%)</title><rect x="20.5" y="289" width="0.2" height="15.0" fill="rgb(208,101,27)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`priocntlsys (4 samples, 0.01%)')" onmouseout="c()">
+<title>genunix`priocntlsys (4 samples, 0.01%)</title><rect x="56.0" y="305" width="0.2" height="15.0" fill="rgb(224,183,10)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`anon_getpage (8 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`anon_getpage (8 samples, 0.02%)</title><rect x="18.0" y="225" width="0.3" height="15.0" fill="rgb(230,210,40)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`copen (7 samples, 0.02%)')" onmouseout="c()">
+<title>genunix`copen (7 samples, 0.02%)</title><rect x="55.2" y="289" width="0.2" height="15.0" fill="rgb(211,196,37)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('mntfs`mntclose (7 samples, 0.02%)')" onmouseout="c()">
+<title>mntfs`mntclose (7 samples, 0.02%)</title><rect x="21.2" y="241" width="0.3" height="15.0" fill="rgb(212,180,2)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`vmu_insert_lookup_object_bounds (326 samples, 0.90%)')" onmouseout="c()">
+<title>genunix`vmu_insert_lookup_object_bounds (326 samples, 0.90%)</title><rect x="145.5" y="225" width="10.6" height="15.0" fill="rgb(219,90,34)" rx="2" ry="2" />
+</g>
+<g class="func_g" onmouseover="s('genunix`relvm (37 samples, 0.10%)')" onmouseout="c()">
+<title>genunix`relvm (37 samples, 0.10%)</title><rect x="56.7" y="257" width="1.2" height="15.0" fill="rgb(237,142,14)" rx="2" ry="2" />
+</g>
+</svg>
